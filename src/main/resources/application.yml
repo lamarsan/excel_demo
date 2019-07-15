@@ -1,0 +1,17 @@
+##公共配置
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+      max-request-size: 50MB
+#    po
+#    tomcat:
+#      uri-encoding: UTF-8
+#spring:
+#  # 数据源配置
+#  datasource:
+#    url: jdbc:mysql://106.75.213.235:43306/mysite?useUnicode=true&characterEncoding=utf8&useSSL=false&tinyInt1isBit=true
+##    url: jdbc:mysql://localhost:3306/example2?useUnicode=true&characterEncoding=utf8&useSSL=false&tinyInt1isBit=true
+#    username: root
+#    password: SmartDebate!test
